@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///C:/Users/Bigza/OneDrive/Documents/GitHub/NebulaRoot/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "NarutoRepublic (1.12.2)",
+    "description": "NarutoRepublic Official server",
+    "address": "173.205.84.79:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "14.23.5.2855"
+  },
+  "untrackedFiles": []
+}
