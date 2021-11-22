@@ -21,7 +21,7 @@
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": true,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
@@ -38,8 +38,8 @@
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 10873,
-                "MD5": "5d114618e561d76e0f692c2d69dcb784",
+                "size": 10789,
+                "MD5": "5d092df68975deb3d56c87f977aaf5fa",
                 "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
               }
             },
@@ -286,6 +286,16 @@
           }
         },
         {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91121,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
           "id": "noppes.npcs:customnpcs:1.12@jar",
           "name": "CustomNPCs",
           "type": "ForgeMod",
@@ -386,6 +396,16 @@
           }
         },
         {
+          "id": "lumien.resourceloader:resourceloader:1.5.3@jar",
+          "name": "Resource Loader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16612,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/forgemods/required/ResourceLoader-MC1.12.1-1.5.3.jar",
+            "MD5": "51141e882f96ce756b9b3d25f2acdf57"
+          }
+        },
+        {
           "id": "party.lemons:trapexpansion:1.0.0@jar",
           "name": "Trap Expansion",
           "type": "ForgeMod",
@@ -416,23 +436,13 @@
           }
         },
         {
-          "id": "generated.library:forge:1.12.2-14.23.5.2855-installer (8)@jar",
-          "name": "forge",
-          "type": "Library",
-          "artifact": {
-            "size": 4602778,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/libraries/forge-1.12.2-14.23.5.2855-installer%20(8).jar",
-            "MD5": "b37aedc28e441fec469f910ce913e9c3"
-          }
-        },
-        {
           "id": "CustomNpcs.cfg",
           "name": "CustomNpcs.cfg",
           "type": "File",
           "artifact": {
-            "size": 1650,
+            "size": 1583,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/CustomNpcs.cfg",
-            "MD5": "76a3d58ef0db35b9ca0146994fa3d13a",
+            "MD5": "301c933c723f305b1705487f967d2ff1",
             "path": "config/CustomNpcs.cfg"
           }
         },
@@ -441,9 +451,9 @@
           "name": "DIAdvancedCompatibility.cfg",
           "type": "File",
           "artifact": {
-            "size": 101984,
+            "size": 99586,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/DIAdvancedCompatibility.cfg",
-            "MD5": "cbee068f4354ed012f27874e1d09d344",
+            "MD5": "58f04f2337d9465b64aaadba43cd1982",
             "path": "config/DIAdvancedCompatibility.cfg"
           }
         },
@@ -452,9 +462,9 @@
           "name": "VariedCommodities.cfg",
           "type": "File",
           "artifact": {
-            "size": 142,
+            "size": 136,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/VariedCommodities.cfg",
-            "MD5": "6b1d67f83745ba596066c03ba44db81d",
+            "MD5": "cfb17c0b4ee1d3739441cea45710f583",
             "path": "config/VariedCommodities.cfg"
           }
         },
@@ -463,9 +473,9 @@
           "name": "Waystones.cfg",
           "type": "File",
           "artifact": {
-            "size": 4536,
+            "size": 4410,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/Waystones.cfg",
-            "MD5": "9d7601df9372b84383ee0f34f6953ae0",
+            "MD5": "8ba69450137561a17ace3e943921ea1c",
             "path": "config/Waystones.cfg"
           }
         },
@@ -485,9 +495,9 @@
           "name": "ambientsounds.cfg",
           "type": "File",
           "artifact": {
-            "size": 6529,
+            "size": 6243,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/ambientsounds.cfg",
-            "MD5": "4851841cd022cea7ff1a8cc226038aec",
+            "MD5": "36c3ff20b120f532a0e013d933a17f3e",
             "path": "config/ambientsounds.cfg"
           }
         },
@@ -496,9 +506,9 @@
           "name": "client.cfg",
           "type": "File",
           "artifact": {
-            "size": 7312,
+            "size": 7137,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/armourers_workshop/client.cfg",
-            "MD5": "aea8d31ff414aac8133725c2d536862b",
+            "MD5": "1de58d47acb1e4bbad00a5dbb2c17533",
             "path": "config/armourers_workshop/client.cfg"
           }
         },
@@ -507,9 +517,9 @@
           "name": "common.cfg",
           "type": "File",
           "artifact": {
-            "size": 9063,
+            "size": 8846,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/armourers_workshop/common.cfg",
-            "MD5": "a3dda48d727c0300ae038312d988a929",
+            "MD5": "bbfc6691e017673b5e1f6adeacc4cb46",
             "path": "config/armourers_workshop/common.cfg"
           }
         },
@@ -518,9 +528,9 @@
           "name": "overrides.cfg",
           "type": "File",
           "artifact": {
-            "size": 1181,
+            "size": 1150,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/armourers_workshop/overrides.cfg",
-            "MD5": "848fb95ca22c35348200e45375d2c05c",
+            "MD5": "a1cc4609fc820be6db9baec2bc54b7cd",
             "path": "config/armourers_workshop/overrides.cfg"
           }
         },
@@ -529,9 +539,9 @@
           "name": "colorfulhealthbar.cfg",
           "type": "File",
           "artifact": {
-            "size": 666,
+            "size": 630,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/colorfulhealthbar.cfg",
-            "MD5": "474277a2aab15f6d4fefdb4a27aeb03a",
+            "MD5": "eefadc91f186c6fe6514c9dd9851314e",
             "path": "config/colorfulhealthbar.cfg"
           }
         },
@@ -551,9 +561,9 @@
           "name": "damageindicatorsmod.cfg",
           "type": "File",
           "artifact": {
-            "size": 4109,
+            "size": 4009,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/damageindicatorsmod.cfg",
-            "MD5": "3e0f54506b2111d9022f0a8fc90d8354",
+            "MD5": "0cbec9c407d537774c88ee278455a10c",
             "path": "config/damageindicatorsmod.cfg"
           }
         },
@@ -562,9 +572,9 @@
           "name": "decocraft.cfg",
           "type": "File",
           "artifact": {
-            "size": 214,
+            "size": 203,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/decocraft.cfg",
-            "MD5": "420b780ccc54113f59d16f998bf1daec",
+            "MD5": "82ce76b8df794caffda0ff843d41c8a9",
             "path": "config/decocraft.cfg"
           }
         },
@@ -573,9 +583,9 @@
           "name": "dungeontactics.cfg",
           "type": "File",
           "artifact": {
-            "size": 25421,
+            "size": 24861,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/dungeontactics.cfg",
-            "MD5": "7065ce64cf98a478524b8b19e277816d",
+            "MD5": "231e569f44aa79e6edef83fe21202b3d",
             "path": "config/dungeontactics.cfg"
           }
         },
@@ -584,9 +594,9 @@
           "name": "dynamiclights.cfg",
           "type": "File",
           "artifact": {
-            "size": 89,
+            "size": 80,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights.cfg",
-            "MD5": "5c83c759a05f6d405c4a1dbc1e872370",
+            "MD5": "5b96e26d020e5e653c9fbda43660fb52",
             "path": "config/dynamiclights.cfg"
           }
         },
@@ -595,9 +605,9 @@
           "name": "dynamiclights_dropitems.cfg",
           "type": "File",
           "artifact": {
-            "size": 512,
+            "size": 498,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_dropitems.cfg",
-            "MD5": "9577348b34162108f1579d3a4a4f5a17",
+            "MD5": "dc88c2b1f9737dafc2ba120fcc5506e6",
             "path": "config/dynamiclights_dropitems.cfg"
           }
         },
@@ -606,9 +616,9 @@
           "name": "dynamiclights_entityclasses.cfg",
           "type": "File",
           "artifact": {
-            "size": 198,
+            "size": 185,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_entityclasses.cfg",
-            "MD5": "afa1deddb12669ca10176c8450e229e1",
+            "MD5": "e4f7060b07ad5d485b2dafc3bc9117bf",
             "path": "config/dynamiclights_entityclasses.cfg"
           }
         },
@@ -617,9 +627,9 @@
           "name": "dynamiclights_floodlights.cfg",
           "type": "File",
           "artifact": {
-            "size": 241,
+            "size": 230,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_floodlights.cfg",
-            "MD5": "9c6fd5fa35ff0c4fb3b25042165e3035",
+            "MD5": "9688bbad6ba27d97c679415eae7e8166",
             "path": "config/dynamiclights_floodlights.cfg"
           }
         },
@@ -628,9 +638,9 @@
           "name": "dynamiclights_mobequipment.cfg",
           "type": "File",
           "artifact": {
-            "size": 423,
+            "size": 412,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_mobequipment.cfg",
-            "MD5": "1e14666dc79b31f1a2d6d2ec59b80ced",
+            "MD5": "0aa4de3d8db546fd3410c8063e7bae42",
             "path": "config/dynamiclights_mobequipment.cfg"
           }
         },
@@ -639,9 +649,9 @@
           "name": "dynamiclights_onfire.cfg",
           "type": "File",
           "artifact": {
-            "size": 203,
+            "size": 195,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_onfire.cfg",
-            "MD5": "fbcb89d94995969658f6566691f8f37b",
+            "MD5": "500018541f6d5d1ee9aaffa34dffc6fa",
             "path": "config/dynamiclights_onfire.cfg"
           }
         },
@@ -650,9 +660,9 @@
           "name": "dynamiclights_otherplayers.cfg",
           "type": "File",
           "artifact": {
-            "size": 464,
+            "size": 453,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_otherplayers.cfg",
-            "MD5": "da60558e8088baad31a6feb425be4a40",
+            "MD5": "0e2445350c3879bee8eb1316d4a45f04",
             "path": "config/dynamiclights_otherplayers.cfg"
           }
         },
@@ -661,9 +671,9 @@
           "name": "dynamiclights_theplayer.cfg",
           "type": "File",
           "artifact": {
-            "size": 430,
+            "size": 419,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_theplayer.cfg",
-            "MD5": "b6f796a3b824e00b0bc4903e43afd54e",
+            "MD5": "6173dc7947c70ad78c510d80f8a55b72",
             "path": "config/dynamiclights_theplayer.cfg"
           }
         },
@@ -672,9 +682,9 @@
           "name": "forge.cfg",
           "type": "File",
           "artifact": {
-            "size": 3955,
+            "size": 3865,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/forge.cfg",
-            "MD5": "bee77d51b82699b95bf5c02788f654fb",
+            "MD5": "f171671570ac5e1c6ce1717ff70c8633",
             "path": "config/forge.cfg"
           }
         },
@@ -683,9 +693,9 @@
           "name": "forgeChunkLoading.cfg",
           "type": "File",
           "artifact": {
-            "size": 2206,
+            "size": 2155,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/forgeChunkLoading.cfg",
-            "MD5": "95ba05ef01861ee260b40c95e9cc5aec",
+            "MD5": "255d6e9355788641e30db10e3c0b8551",
             "path": "config/forgeChunkLoading.cfg"
           }
         },
@@ -694,9 +704,9 @@
           "name": "itemBlacklist.cfg",
           "type": "File",
           "artifact": {
-            "size": 679,
+            "size": 662,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/jei/itemBlacklist.cfg",
-            "MD5": "d1aa29b95c320167bb4a663534b04114",
+            "MD5": "bf1c9b408cfee5e4b4d015a5f0438783",
             "path": "config/jei/itemBlacklist.cfg"
           }
         },
@@ -705,9 +715,9 @@
           "name": "jei.cfg",
           "type": "File",
           "artifact": {
-            "size": 3028,
+            "size": 2949,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/jei/jei.cfg",
-            "MD5": "c5ae6d93c28ed43266a5ea28cb4e51a3",
+            "MD5": "8e247d9b38e95f342ab0d81160d24224",
             "path": "config/jei/jei.cfg"
           }
         },
@@ -716,9 +726,9 @@
           "name": "searchColors.cfg",
           "type": "File",
           "artifact": {
-            "size": 1994,
+            "size": 1941,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/jei/searchColors.cfg",
-            "MD5": "585c420ac4e5433c27837a588927a0c0",
+            "MD5": "2cf9560152e9957b6e7e62d4e36107cb",
             "path": "config/jei/searchColors.cfg"
           }
         },
@@ -727,9 +737,9 @@
           "name": "worldSettings.cfg",
           "type": "File",
           "artifact": {
-            "size": 486,
+            "size": 461,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/jei/worldSettings.cfg",
-            "MD5": "8500ff9c7e6918b136a291b7248a2b67",
+            "MD5": "d36529d6aeb55ece37e70516fc3a965f",
             "path": "config/jei/worldSettings.cfg"
           }
         },
@@ -738,9 +748,9 @@
           "name": "journeymap_ModInfo.cfg",
           "type": "File",
           "artifact": {
-            "size": 373,
+            "size": 370,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/journeymap_ModInfo.cfg",
-            "MD5": "c1cb49f7f280f6058cab37244e86a094",
+            "MD5": "a0517950c9ac6df9095d66536200b3c7",
             "path": "config/journeymap_ModInfo.cfg"
           }
         },
@@ -749,9 +759,9 @@
           "name": "journeymap_server.cfg",
           "type": "File",
           "artifact": {
-            "size": 633,
+            "size": 615,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/journeymap_server.cfg",
-            "MD5": "ec1f450ddbf068d578328b97f5e50d1b",
+            "MD5": "704e8c040987675a9ac814abe9b7cdc6",
             "path": "config/journeymap_server.cfg"
           }
         },
@@ -760,9 +770,9 @@
           "name": "ptrmodellib.cfg",
           "type": "File",
           "artifact": {
-            "size": 170,
+            "size": 162,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/ptrmodellib.cfg",
-            "MD5": "2eb45bb2aa31cce033460493924bf579",
+            "MD5": "87cc5cf17373c3a7eba50a7aad317dc7",
             "path": "config/ptrmodellib.cfg"
           }
         },
@@ -771,9 +781,9 @@
           "name": "splash.properties",
           "type": "File",
           "artifact": {
-            "size": 375,
+            "size": 358,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/splash.properties",
-            "MD5": "a26977ac88c6e588c9bdea41095f4237",
+            "MD5": "2a3d9740caa4ae90f6861ae92e43e0a0",
             "path": "config/splash.properties"
           }
         },
@@ -804,9 +814,9 @@
           "name": "waila.cfg",
           "type": "File",
           "artifact": {
-            "size": 3041,
+            "size": 2954,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NebulaRoot/main/servers/NarutoRepublic-1.12.2/files/config/waila/waila.cfg",
-            "MD5": "4f3ea1b127e6503e46f2ea2270ca2a86",
+            "MD5": "047c5d62d420612f38d3994f8fafc829",
             "path": "config/waila/waila.cfg"
           }
         }
